@@ -11,3 +11,5 @@ cd Simple_Ink_Starter
 yarn install
 npm start
 ```
+
+From there, you should only need to modify `App.js` and create components to your heart's content!

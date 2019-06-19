@@ -5,7 +5,7 @@ const importJsx = require('import-jsx');
 const {h, render} = require('ink');
 const meow = require('meow');
 
-const Ui = importJsx('./App');
+const App = importJsx('./App');
 
 const cli = meow(`
 	Usage
@@ -21,4 +21,4 @@ const cli = meow(`
 	  I love ponies
 `);
 
-render(h(Ui, cli.flags));
+render(h(App, cli.flags));
